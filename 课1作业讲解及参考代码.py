@@ -269,9 +269,13 @@ def polygon(x, y, n, l):
 # 提示, 有中心点, 就能算出顶部边的起点
 # 使用角度 / 转向 / t.setheading 实现这个函数
 def polygon(x, y, n, l):
+    # 走到圆心
     setpen(x, y)
+    # 现在就是竖直向上
     t.left(90)
+    # 算出要转的角度左转
     angle = 360 / n / 2
+    t.left(angle)
     # c = 2 * pi * r
     c = l * n
     pi = 3.1415926535
