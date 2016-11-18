@@ -1,0 +1,33 @@
+﻿PyCharm 配置包和按键说明（配置文件 settings.jar 在github中）
+
+约定
+C Control / Ctrl
+S Shift
+A Alt / option
+
+移动光标
+C-f     光标右(forward)
+C-b     光标左(backward)
+C-p     光标上(previous)
+C-n     光标下(next)
+
+C-A-f   往右一个单词
+C-A-b   往左一个单词
+
+C-a     光标移动到行首
+C-e     光标移动到行尾
+
+删除
+C-h     删除光标左边的一个字符
+C-d     删除光标右边的一个字符
+C-A-h   删除光标左边的一个单词
+C-A-d   删除光标右边的一个单词
+
+C-k     删除从当前光标到行尾的所有内容
+
+
+PyCharm 使用
+C-r    运行代码
+
+
+其他待补充
